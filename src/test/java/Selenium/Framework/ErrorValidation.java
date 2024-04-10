@@ -27,6 +27,8 @@ public class ErrorValidation extends BastTest
 		System.out.println("Demo3");
 		System.out.println("**********************************");
 		System.out.println("X person made change");
+		System.out.println("-------------------------------------");
+		System.out.println("Architect Rules");
 		
 		
 	}
