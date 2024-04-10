@@ -8,6 +8,7 @@ import BaseTestComponent.BastTest;
 import Framework.CartPage;
 
 import Framework.ProductList;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 
 public class ErrorValidation extends BastTest
@@ -21,7 +22,9 @@ public class ErrorValidation extends BastTest
 		System.out.println(loginpage.getErrorMessage());
 		Assert.assertEquals("Incorrect email password.", loginpage.getErrorMessage());
 		// to select item
-		
+		System.out.println("Demo1");
+		System.out.println("Demo2");
+		System.out.println("Demo3");
 		
 	}
 	
